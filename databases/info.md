@@ -56,19 +56,25 @@ http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf
 
 9.Google BigQuery
 
-10.Amazon Redshift
+10.Google BigTable
 
-11.IBM Netezza 
+Fay Chang, Jeffrey Dean,Sanjay Ghemawat,Wilson C.Hsieh, Deborah A.Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E.Gruber
+Bigtable:A Distributed Storage Systemfor Structured Data
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
+
+11.Amazon Redshift
+
+12.IBM Netezza 
 - uses FPGAs
 - proprietary AMPP (Asymmetric Massively Parallel Processing) architecture
 - black box from IBM
 
-12.Teradata
+13.Teradata
 - physical distributed memory
 - https://habr.com/ru/post/209078/
 - https://habr.com/en/company/teradata/blog/160821/ 
 
-13.https://dbdb.io/
+14.https://dbdb.io/
 
 Comparisons 
 -----------

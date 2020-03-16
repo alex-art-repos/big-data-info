@@ -24,6 +24,10 @@ https://cyberleninka.ru/article/n/god-epohi-peremen-v-tehnologii-baz-dannyh
 
 - many links and materials https://github.com/rxin/db-readings
 
+Stratos Idreos, Kostas Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian HentschelMichael, S. Kester, Demi Guo, Lukas Maas, Wilson Qin, Abdul Wasay, Yiyou Sun
+The Periodic Table of Data Structures
+https://stratos.seas.harvard.edu/files/stratos/files/periodictabledatastructures.pdf
+
 2.Indexes
 
 Felix Martin Schuhknecht, Alekh Jindal, Jens Dittrich 

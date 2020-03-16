@@ -50,3 +50,6 @@ https://cyberleninka.ru/article/n/upravlenie-dannymi-25-let-prognozov
 
 Anastasia Ailamaki, Erietta Liarou, Pinar Tözün
 Databases on Modern Hardware: How to Stop Underutilization and Love Multicores (Synthesis Lectures on Data Management), August 14, 2017
+
+Stratos Idreos, Associate Professor Harvard John A. Paulson School of Engineering & Applied Sciences 
+https://stratos.seas.harvard.edu/publications

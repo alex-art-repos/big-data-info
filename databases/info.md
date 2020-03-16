@@ -8,6 +8,9 @@ Ibrar Ahmed
 Parallelism in PostgreSQL
 https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/
 
+PostgreSQL Time-Series Data Case: Automatic Compression over Time
+https://www.alibabacloud.com/blog/postgresql-time-series-data-case-automatic-compression-over-time_594813
+
 1.2.Compression in postgresql
 - postgres on ZFS 
   https://www.citusdata.com/blog/2013/04/30/zfs-compression/
@@ -86,8 +89,14 @@ https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-fl
 Compression
 -----------
 
+Zip, deflate
+https://m.habr.com/ru/company/mailru/blog/490790/
+
 ZFS Compression - A Win-Win
 https://blogs.oracle.com/solaris/zfs-compression-a-win-win-v2
+
+Zstandard
+https://facebook.github.io/zstd/
 
 Books
 -----

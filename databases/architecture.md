@@ -24,7 +24,13 @@ https://cyberleninka.ru/article/n/god-epohi-peremen-v-tehnologii-baz-dannyh
 
 - many links and materials https://github.com/rxin/db-readings
 
-2.OS internals
+2.Indexes
+
+Felix Martin Schuhknecht, Alekh Jindal, Jens Dittrich 
+The Uncracked Pieces in Database Cracking
+http://alekh.org/papers/p97-schuhknecht.pdf
+
+3.OS internals
 - https://m.habr.com/ru/company/oleg-bunin/blog/335260/
 - https://m.habr.com/ru/company/oleg-bunin/blog/459444/
 
@@ -41,3 +47,6 @@ Authors
 Кузнецов С.Д., kuzloc@ispras.ru
 Управление данными: 25 лет прогнозов (списки участников database research community)
 https://cyberleninka.ru/article/n/upravlenie-dannymi-25-let-prognozov
+
+Anastasia Ailamaki, Erietta Liarou, Pinar Tözün
+Databases on Modern Hardware: How to Stop Underutilization and Love Multicores (Synthesis Lectures on Data Management), August 14, 2017

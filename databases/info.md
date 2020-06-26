@@ -33,51 +33,63 @@ https://www.postgresql.eu/events/pgconfeu2019/sessions/session/2671/slides/263/D
 - https://habr.com/company/yandex/blog/273305/
 - Clickhouse benchmarks with popular DBs https://clickhouse.tech/benchmark.html
 
-4.HP Vertica
+4.Hadoop based
+- Apache Kudu (column store, C++)
+- HBase (column store, key-value)
+- Cloudera Impala (MPP, C++)
+- Hive (MapReduce)
+
+5.PrestoDB
+- invented at Facebook
+- open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes
+- https://prestodb.io/ 
+
+6.Apache Drill
+- Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage
+- https://drill.apache.org/
+
+7.TokuDB 
+- storage engine for MySQL and MariaDB, scalable, ACID and MVCC compliant
+- https://www.percona.com/software/mysql-database/percona-tokudb
+
+8.HP Vertica
 - hp_vertica_description.pdf
 
 Andrew Lamb, Matt Fuller, Ramakrishna VaradarajanNga Tran, Ben Vandiver, Lyric Doshi, Chuck Bear
 The Vertica Analytic Database: C-Store 7 Years Later
 http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf
 
-5.Oracle Exadata
+9.Oracle Exadata
 - exadata_x4_hardware_overview.pdf
 - exadata_tests.pdf
 
-6.PrestoDB
-- invented at Facebook
-- open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes
-- https://prestodb.io/ 
+10.Google BigQuery
 
-7.Apache Drill
-- Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage
-- https://drill.apache.org/
-
-8.TokuDB 
-- storage engine for MySQL and MariaDB, scalable, ACID and MVCC compliant
-- https://www.percona.com/software/mysql-database/percona-tokudb
-
-9.Google BigQuery
-
-10.Google BigTable
+11.Google BigTable
 
 Fay Chang, Jeffrey Dean,Sanjay Ghemawat,Wilson C.Hsieh, Deborah A.Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E.Gruber
-Bigtable:A Distributed Storage Systemfor Structured Data
+Bigtable:A Distributed Storage System for Structured Data
 https://storage.googleapis.com/pub-tools-public-publication-data/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
 
-11.Amazon Redshift
+12.Google Dremel
 
-12.IBM Netezza 
+Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer,Shiva Shivakumar, Matt Tolton, Theo Vassilakis Google, Inc
+Dremel: Interactive Analysis of Web-Scale Datasets
+https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf
+
+13.Amazon Redshift
+
+14.IBM Netezza 
 - uses FPGAs
 - proprietary AMPP (Asymmetric Massively Parallel Processing) architecture
 - black box from IBM
 
-13.Teradata
+15.Teradata
 - physical distributed memory
 - https://habr.com/ru/post/209078/
 - https://habr.com/en/company/teradata/blog/160821/ 
 
-14.https://dbdb.io/
+16.https://dbdb.io/
 
 Comparisons 
 -----------
@@ -97,6 +109,17 @@ https://blogs.oracle.com/solaris/zfs-compression-a-win-win-v2
 
 Zstandard
 https://facebook.github.io/zstd/
+
+Data formats
+------------
+
+- plain text, CSV, JSON
+- compressed CSV, JSON with LZO, bzip2
+- Avro
+- Parquet
+- ORC
+- RCFIle
+- Sequence
 
 Books
 -----

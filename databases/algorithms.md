@@ -13,6 +13,10 @@ Bin Fan, Dave Andersen and Michael Kaminsky
 Cuckoo Filter: Better Than Bloom
 https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf
 
+Noah Fleming
+Cuckoo Hashing and Cuckoo Filters
+http://www.cs.toronto.edu/~noahfleming/CuckooHashing.pdf
+
 2.Count–min sketch
 
 - https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch

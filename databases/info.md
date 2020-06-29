@@ -34,10 +34,16 @@ https://www.postgresql.eu/events/pgconfeu2019/sessions/session/2671/slides/263/D
 - Clickhouse benchmarks with popular DBs https://clickhouse.tech/benchmark.html
 
 4.Hadoop based
-- Apache Kudu (column store, C++)
 - HBase (column store, key-value)
-- Cloudera Impala (MPP, C++)
+- Cloudera Impala (MPP, C++, metadata in Hive Metastore)
 - Hive (MapReduce)
+- Apache Phoenix (компилирует SQL-запросы в собственные запросы API HBase)
+
+- Apache Kudu (column store, C++)
+
+Todd Lipcon, David Alves, Dan Burkert, Jean-Daniel Cryans, Adar Dembo, Mike Percy, Silvius Rus, Dave Wang, Matteo Bertozzi, Colin Patrick McCabe, Andrew Wang, Cloudera, inc
+Kudu:  Storage for Fast Analytics on Fast Data
+https://kudu.apache.org/kudu.pdf
 
 5.PrestoDB
 - invented at Facebook
@@ -45,6 +51,8 @@ https://www.postgresql.eu/events/pgconfeu2019/sessions/session/2671/slides/263/D
 - https://prestodb.io/ 
 
 6.Apache Drill
+- MPP
+- open source, inspired by Dremel
 - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage
 - https://drill.apache.org/
 
@@ -63,33 +71,34 @@ http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf
 - exadata_x4_hardware_overview.pdf
 - exadata_tests.pdf
 
-10.Google BigQuery
-
-11.Google BigTable
-
-Fay Chang, Jeffrey Dean,Sanjay Ghemawat,Wilson C.Hsieh, Deborah A.Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E.Gruber
-Bigtable:A Distributed Storage System for Structured Data
-https://storage.googleapis.com/pub-tools-public-publication-data/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
-
-12.Google Dremel
+10.Google BigQuery (service)
+- Dremel
 
 Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer,Shiva Shivakumar, Matt Tolton, Theo Vassilakis Google, Inc
 Dremel: Interactive Analysis of Web-Scale Datasets
 https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf
 
-13.Amazon Redshift
+11.Google BigTable
+- proprietary
+- GFS
 
-14.IBM Netezza 
+Fay Chang, Jeffrey Dean,Sanjay Ghemawat,Wilson C.Hsieh, Deborah A.Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E.Gruber
+Bigtable:A Distributed Storage System for Structured Data
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
+
+12.Amazon Redshift
+
+13.IBM Netezza 
 - uses FPGAs
 - proprietary AMPP (Asymmetric Massively Parallel Processing) architecture
 - black box from IBM
 
-15.Teradata
+14.Teradata
 - physical distributed memory
 - https://habr.com/ru/post/209078/
 - https://habr.com/en/company/teradata/blog/160821/ 
 
-16.https://dbdb.io/
+15.https://dbdb.io/
 
 Comparisons 
 -----------
@@ -113,12 +122,15 @@ https://facebook.github.io/zstd/
 Data formats
 ------------
 
+1. Column-based
+- Apache ORC (Optimized Row Columnar)
+- RCFIle (row group with separated columns)
+- Parquet
+
+2. Row-based, line-oriented 
 - plain text, CSV, JSON
 - compressed CSV, JSON with LZO, bzip2
-- Avro
-- Parquet
-- ORC
-- RCFIle
+- Apache Avro
 - Sequence
 
 Books

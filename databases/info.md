@@ -38,6 +38,7 @@ https://www.postgresql.eu/events/pgconfeu2019/sessions/session/2671/slides/263/D
 - Cloudera Impala (MPP, C++, metadata in Hive Metastore)
 - Hive (MapReduce)
 - Apache Phoenix (компилирует SQL-запросы в собственные запросы API HBase)
+- Apache Accumulo (sorted, distributed key/value store, Apache HDFS to store its data, Apache ZooKeeper for consensus)
 
 - Apache Kudu (column store, C++)
 

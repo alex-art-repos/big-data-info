@@ -15,6 +15,16 @@ https://www.alibabacloud.com/blog/postgresql-time-series-data-case-automatic-com
 - postgres on ZFS 
   https://www.citusdata.com/blog/2013/04/30/zfs-compression/
   https://www.2ndquadrant.com/en/blog/pg-phriday-postgres-zfs/
+  https://medium.com/@lk.snatch/postgresql-compression-854a4647ee43 (Auto-compression TOAST-able data, Postgres Pro compression / encryption, 
+  Cstore_fdw columnar store extension, ZSON extension for jsonb format, Compression file systems (like ZFS or Btrfs), TimeScaleDB for time-series data)  
+  
+Aleksander Alekseev, Anastasia Lubennikova
+In-core compression:how to shrink your databasesize in several times  
+https://afiskon.github.io/static/2017/postgresql-in-core-compression-pgconf2017.pdf
+
+- field compression
+http://blog.cleverelephant.ca/2019/11/pgsql-gzip.html
+https://github.com/postgrespro/zson
 
 Aya Iwata, Fujitsu Limited
 Data compression in PostgreSQL and its future

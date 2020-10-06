@@ -28,6 +28,8 @@ Stratos Idreos, Kostas Zoumpatianos, Manos Athanassoulis, Niv Dayan, Brian Hents
 The Periodic Table of Data Structures
 https://stratos.seas.harvard.edu/files/stratos/files/periodictabledatastructures.pdf
 
+http://www.vldb.org/
+
 2.Indexes
 
 Felix Martin Schuhknecht, Alekh Jindal, Jens Dittrich 

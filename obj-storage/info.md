@@ -40,3 +40,10 @@ Object storage
 
 - General Parallel File System
 - IBM proprietary
+
+7. Swift
+
+- OpenStack Object Storage ("Swift")
+- https://docs.openstack.org/swift/latest/overview_architecture.html#
+- NVIDIA https://www.swiftstack.com/docs/introduction/openstack_swift.html
+- SwiftStack is the lead upstream contributor to the OpenStack Swift project with around 20% of community activity in 2015.

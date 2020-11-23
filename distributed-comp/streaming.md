@@ -23,5 +23,12 @@ Solutions
 
 - https://flume.apache.org/
 
+6.Apache NiFi
+
+- to automate the flow of data between systems
+- Apache Zookeeper elects a single node as the Cluster Coordinator, and failover is handled automatically
+- preferred communication protocol between NiFi instances is the NiFi Site-to-Site (S2S) Protocol
+- Both the socket based protocol and HTTP(S) protocol are supported in S2S as the underlying transport protocol 
+
 Authors
 -------

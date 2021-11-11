@@ -82,14 +82,15 @@ http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf
 - exadata_x4_hardware_overview.pdf
 - exadata_tests.pdf
 
-10.Google BigQuery (service)
+10.Google 
+10.1. BigQuery (service)
 - Dremel
 
 Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer,Shiva Shivakumar, Matt Tolton, Theo Vassilakis Google, Inc
 Dremel: Interactive Analysis of Web-Scale Datasets
 https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf
 
-11.Google BigTable
+10.2. BigTable
 - proprietary
 - GFS
 
@@ -97,19 +98,42 @@ Fay Chang, Jeffrey Dean,Sanjay Ghemawat,Wilson C.Hsieh, Deborah A.Wallach, Mike 
 Bigtable:A Distributed Storage System for Structured Data
 https://storage.googleapis.com/pub-tools-public-publication-data/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
 
-12.Amazon Redshift
+10.3. Google Cloud Spanner
 
-13.IBM Netezza 
+11.Amazon
+- Redshift (DWH)
+- Aurora (RDMS AWS, mysql and postgresql)
+
+12.IBM Netezza 
 - uses FPGAs
 - proprietary AMPP (Asymmetric Massively Parallel Processing) architecture
 - black box from IBM
 
-14.Teradata
+13.Teradata
 - physical distributed memory
 - https://habr.com/ru/post/209078/
 - https://habr.com/en/company/teradata/blog/160821/ 
 
-15.https://dbdb.io/
+14.https://dbdb.io/
+
+15. https://pingcap.com/ TiDB An open-source, cloud-native, distributed SQL database for elastic scale and real-time analytics
+- Hybrid Transactional and Analytical Processing (row-based storage for OLTP, column for OLAP)
+- SQL compatibility and protocol - MySQL
+- Distributed ACID transactions
+- Go
+ 
+16. YugaByteDB
+- reusing PostgreSQL’s query layer to achieve a high degree of compatibility with existing PostgreSQL applications or 
+  those that can be migrated to PostgreSQL
+- triggers, functions, stored procedures, strong secondary indexes, and distributed ACID transactions
+- The architectural design of YugabyteDB is similar to Google Cloud Spanner, which is also a CP system.
+- DocDB is YugabyteDB's distributed document store
+- DocDB The documents are stored using a key-value store based on RocksDB, which is typeless.
+- c/c++/java
+
+17. CockroachDB
+- Pebble is a LevelDB/RocksDB inspired key-value store focused on performance and internal usage by CockroachDB.
+- Go 
 
 Comparisons 
 -----------
